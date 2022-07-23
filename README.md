@@ -1,6 +1,6 @@
 # shop
 
-Tutorial Projektu szkoleniowego Shop
+Tutorial Projektu szkoleniowego Shop w ramach http://greaw.waw.pl
 
 1-9 filmików
 
