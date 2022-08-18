@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
 public class Product {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
 
     private String title;
@@ -29,6 +29,10 @@ public class Product {
 
         this.created = LocalDateTime.now();
         this.updated = LocalDateTime.now();
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public Long getId() {
